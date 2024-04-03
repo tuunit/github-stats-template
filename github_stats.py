@@ -226,6 +226,10 @@ query {
       contributionCalendar {{
         totalContributions
       }}
+      totalIssueContributions
+      totalCommitContributions
+      totalPullRequestContributions
+      totalPullRequestReviewContributions
     }}
 """
 
